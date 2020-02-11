@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "843976683396",
+    "firebase_url": "https://pizzas-tatu.firebaseio.com",
+    "project_id": "pizzas-tatu",
+    "storage_bucket": "pizzas-tatu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843976683396:android:a76d002d3fde5232b177d1",
+        "android_client_info": {
+          "package_name": "com.fatcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843976683396-3qt25leoq92mtlvdhsvb59kpv7uuvvd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatcom",
+            "certificate_hash": "560bda0242e94b828e0c307091b368c59e33248b"
+          }
+        },
+        {
+          "client_id": "843976683396-n9j23lgjh9hlsbsge09sb4op18oa6dtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9y1zfsLJya89myl1KMs3BTYUAQMN6-Vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843976683396-n9j23lgjh9hlsbsge09sb4op18oa6dtb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

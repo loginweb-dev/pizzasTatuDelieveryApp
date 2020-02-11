@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tatu Delivery</string>
+
+    <!-- Login facebook -->
+    <string name="facebook_app_id">408631173404142</string>
+    <!-- <string name="fb_login_protocol_scheme">fb408631173404142</string> -->
+</resources>
