@@ -38,8 +38,8 @@ class itemCard extends Component{
                                 {this.props.detalle.map(detalle => `${detalle.cantidad} ${detalle.nombre}, `)}
                             </Text>
                         </View>
-                        <View style={styles.priceContainer}>
-                            { this.props.status == '1' ? <Text style={styles.price}>{this.props.created}</Text> : <Badge backgroundColor="red" color="white">Entregado <Icon name="check" /></Badge> }
+                        <View style={[styles.priceContainer,]}>
+                            { this.props.status == '1' ? <Text style={styles.price}>{this.props.created}</Text> : <View style={{width: 90}}><Badge backgroundColor="red" color="white">Entregado <Icon name="check" /></Badge></View> }
                         </View>
                     </View>
                     <View style={styles.actionsContainer}>
@@ -53,7 +53,7 @@ class itemCard extends Component{
                         <View style={styles.btnContainer}>
                             <TouchableOpacity style={ [styles.actionBtnContainer, {borderColor: colors.greenColor}] } 
                                 onPress={() =>
-                                    Linking.openURL(`whatsapp://send?text=Su pedidos está frente a su domicilio&phone=+591${this.props.movil}`)}
+                                    Linking.openURL(`whatsapp://send?text=Su pedido está frente a su domicilio&phone=+591${this.props.movil}`)}
                             >
                                 <Text style={ {color: colors.greenColor}}><Icon name="whatsapp" size={verticalScale(20)} /></Text>
                             </TouchableOpacity>

@@ -97,15 +97,15 @@ class ItemDetail extends React.Component {
                                 <TouchableOpacity style={ {} } 
                                     onPress={() => Linking.openURL(`tel:${this.state.phone}`)}
                                 >
-                                    <Text><Icon name="phone" size={verticalScale(30)} /></Text>
+                                    <Text><Icon name="phone" size={verticalScale(50)} style={{ color:colors.primaryOrangeColor }} /></Text>
                                 </TouchableOpacity>
                             </View>
                             <View style={styles.width1_view} />
                             <View style={styles.container_content_view_action}>
                                 <TouchableOpacity style={ {} } 
-                                    onPress={() => Linking.openURL(`whatsapp://send?text=Su pedidos está frente a su domicilio&phone=+591${this.state.phone}`)}
+                                    onPress={() => Linking.openURL(`whatsapp://send?text=Su pedido está frente a su domicilio&phone=+591${this.state.phone}`)}
                                 >
-                                    <Text><Icon name="whatsapp" size={verticalScale(30)} /></Text>
+                                    <Text><Icon name="whatsapp" size={verticalScale(50)} style={{ color:colors.primaryGreenColor }} /></Text>
                                 </TouchableOpacity>
                             </View>
                             <View style={styles.width1_view} />
@@ -115,7 +115,7 @@ class ItemDetail extends React.Component {
                                         `http://www.google.com/maps/place/${this.state.region.latitude},${this.state.region.longitude}`
                                         )}
                                 >
-                                <Text><Icon name="map-marker" size={verticalScale(30)} /></Text>
+                                <Text><Icon name="map-marker" size={verticalScale(50)} style={{ color: '#2B85EA' }} /></Text>
                                 </TouchableOpacity>
                             </View>
                         </View>

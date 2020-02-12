@@ -7,9 +7,8 @@ const Badge = (props) => {
                         backgroundColor: props.backgroundColor,
                         color: props.color,
                         borderRadius: 3,
-                        width: 90,
                         padding:3,
-                        margin: 2 }}
+                        margin: 2,}}
         >{props.children}</Text>
     )
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {
     Text, StyleSheet, View, Image, AsyncStorage
 } from 'react-native';
+import { SafeAreaView, NavigationEvents } from 'react-navigation'
+
 import { fontStyles } from '../../utils/fontStyles';
 import { colors } from '../../utils/colors';
 import { verticalScale } from '../../utils/scaling';
@@ -21,7 +23,7 @@ class drawerProfile extends Component{
   
     // Fetch the token from storage then navigate to our appropriate place
     bootstrapAsync = async () => {
-        const data = await AsyncStorage.getItem('tatuUser');
+        const data = await AsyncStorage.getItem('tatuUserDelivery');
         let user = JSON.parse(data);
         this.setState({name: user.name, phone: user.phone, avatar: user.avatar});
     };
@@ -39,6 +41,9 @@ class drawerProfile extends Component{
                     <Text style={styles.title}>{this.state.name}</Text>
                     <Text style={styles.description}>{this.state.phone}</Text>
                 </View>
+                <NavigationEvents
+                    onDidFocus={() => this.bootstrapAsync()}
+                />
             </View>
         );
     }

@@ -26,6 +26,7 @@ class FdIconTextinput extends React.Component {
                     autoCapitalize={this.props.autoCapitalize ? this.props.autoCapitalize : 'none'}
                     autoCorrect={false}
                     keyboardType={this.props.type ? this.props.type : 'default'}
+                    multiline={this.props.multiline ? this.props.multiline : false}
                 />
           </View>
         );

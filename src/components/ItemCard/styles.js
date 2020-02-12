@@ -52,7 +52,7 @@ export default {
     price: {
         fontFamily: fontStyles.PoppinsRegular,
         fontSize: verticalScale(16),
-        color: colors.orangeColor,
+        color: colors.primaryGreenColor,
     },
     actionsContainer: {
         width: '20%',

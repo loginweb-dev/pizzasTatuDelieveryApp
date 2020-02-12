@@ -45,12 +45,11 @@ class Login extends Component{
                 this.showAlertErrorLogin();
             }else{
                 let user = {
-                    id: res.id, cliente_id: res.cliente_id, name: res.name, email: res.email, razon_social:res.razon_social, nit: res.nit, phone: res.movil, avatar: res.avatar
+                    id: res.id, empleado_id: res.empleado_id, name: res.name, email: res.email, phone: res.movil, address: res.direccion, avatar: res.avatar
                 }
                 AsyncStorage.setItem('isLoggedIn', '1');
-                AsyncStorage.setItem('tatuCart', '[]');
-                AsyncStorage.setItem('tatuUser', JSON.stringify(user));
-                this.props.navigation.navigate('DeliveryOrders'); 
+                AsyncStorage.setItem('tatuUserDelivery', JSON.stringify(user));
+                this.props.navigation.navigate('DeliveryOrders');
             }
         })
         .catch(error => {

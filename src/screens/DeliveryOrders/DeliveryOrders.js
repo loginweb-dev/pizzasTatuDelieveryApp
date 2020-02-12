@@ -28,7 +28,7 @@ class Menu extends React.Component {
     }
 
     async getUser(){
-        const data = await AsyncStorage.getItem('tatuUser');
+        const data = await AsyncStorage.getItem('tatuUserDelivery');
         this.props.setUser(JSON.parse(data));
         this.setState({user:JSON.parse(data)});
     }
