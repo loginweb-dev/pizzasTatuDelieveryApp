@@ -13,19 +13,22 @@ import styles from './styles';
 import { colors } from '../../utils/colors';
 import { SafeAreaView } from 'react-navigation'
 import ImagePicker from 'react-native-image-picker';
-import RNFetchBlob from 'react-native-fetch-blob'
+import RNFetchBlob from 'rn-fetch-blob'
 
 const BASE_URL = `https://delivery.pizzastatu.com/`;
 
 // Options ImagePicker
-const options = {
+const optionsImagePicker = {
     title: 'Seleccionar Imagen',
-    // customButtons: [{ name: 'newAvatar', title: 'Cambiar imagen de perfil' }],
+    takePhotoButtonTitle: 'Tomar una fotografía',
+    chooseFromLibraryButtonTitle: 'Seleccionar de la galeria',
+    cancelButtonTitle : 'Cancelar',
+    quality: 1,
     storageOptions: {
         skipBackup: true,
         path: 'images',
     },
-  };
+};
 
 class Profile extends Component{
 
@@ -144,7 +147,7 @@ class Profile extends Component{
         this.setState({
             alertEdit: false,
         });
-        ImagePicker.showImagePicker(options, (response) => {
+        ImagePicker.showImagePicker(optionsImagePicker, (response) => {
             if (response.didCancel) {
               console.log('User cancelled image picker');
             } else if (response.error) {

@@ -25,6 +25,11 @@ class Menu extends React.Component {
     componentDidMount(){
         this.getUser();
         setTimeout(()=>this.getPedidos(), 250);
+        this.reloadPedidos();
+    }
+
+    reloadPedidos(){
+        setInterval(()=>this.getPedidos(), 10000);
     }
 
     async getUser(){
