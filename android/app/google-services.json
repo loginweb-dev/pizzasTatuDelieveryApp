@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "843976683396",
-    "firebase_url": "https://pizzas-tatu.firebaseio.com",
-    "project_id": "pizzas-tatu",
-    "storage_bucket": "pizzas-tatu.appspot.com"
+    "project_number": "578030582824",
+    "firebase_url": "https://pizzas-tatu-267420.firebaseio.com",
+    "project_id": "pizzas-tatu-267420",
+    "storage_bucket": "pizzas-tatu-267420.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:843976683396:android:a76d002d3fde5232b177d1",
+        "mobilesdk_app_id": "1:578030582824:android:239c2bb9649e8fa30f491d",
         "android_client_info": {
-          "package_name": "com.fatcom"
+          "package_name": "com.pizzastatudelivery"
         }
       },
       "oauth_client": [
         {
-          "client_id": "843976683396-3qt25leoq92mtlvdhsvb59kpv7uuvvd4.apps.googleusercontent.com",
+          "client_id": "578030582824-fqgiok1jcui32n61p43h17oget7m17ro.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.fatcom",
-            "certificate_hash": "560bda0242e94b828e0c307091b368c59e33248b"
+            "package_name": "com.pizzastatudelivery",
+            "certificate_hash": "cd800e10a90c6af286734c1d2ad02f8845026ffd"
           }
         },
         {
-          "client_id": "843976683396-n9j23lgjh9hlsbsge09sb4op18oa6dtb.apps.googleusercontent.com",
+          "client_id": "578030582824-6ctpafgnk8r32dpsuhle429qgd97dd0g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD9y1zfsLJya89myl1KMs3BTYUAQMN6-Vo"
+          "current_key": "AIzaSyAa-f8cCg-cKx42F-7U5up4ussI2UK5lZ4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "843976683396-n9j23lgjh9hlsbsge09sb4op18oa6dtb.apps.googleusercontent.com",
+              "client_id": "578030582824-6ctpafgnk8r32dpsuhle429qgd97dd0g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
