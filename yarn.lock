@@ -1448,6 +1448,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
+base-64@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
+  integrity sha512-Y5gU45svrR5tI2Vt/X9GPd3L0HNIKzGu202EjxrXMpuc2V2CiKgemAbUUsqYmZJvPtCXoUKjNZwBJzsNScUbXA==
+
 base64-js@^1.1.2, base64-js@^1.2.3:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
@@ -2810,6 +2815,18 @@ glob-parent@^5.0.0:
   dependencies:
     is-glob "^4.0.1"
 
+glob@7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.0.6.tgz#211bafaf49e525b8cd93260d14ab136152b3f57a"
+  integrity sha512-f8c0rE8JiCxpa52kWPAOa3ZaYEnzofDzCQLCn3Vdk0Z5OVLq3BsRFJI4S4ykpeVW6QMGBUkMeUpoEgWnMTnw5Q==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.2"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
@@ -3986,7 +4003,7 @@ lodash.unescape@4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -4369,6 +4386,13 @@ mimic-fn@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+minimatch@^3.0.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
+  dependencies:
+    brace-expansion "^1.1.7"
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -5106,9 +5130,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^6.1.0:
   version "6.8.3"
@@ -5197,42 +5221,15 @@ react-native-drawer-layout@1.3.2:
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
 
-react-native-fbsdk@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-1.0.4.tgz#ecc0faf235e12de4423af9908f56b999cf144422"
-  integrity sha512-s0fBRDi/k6jfWFRnmwQwJA4WTriKhyes71tYO6LdXF6nAI7k+7DCdFZqIA7PqtTUA7WwEjSP6qjKTibCDWOwLw==
-
-react-native-location@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-location/-/react-native-location-2.5.0.tgz#b6d2f7e9c3dbe13fbe87587f9533b8bf943b6a35"
-  integrity sha512-myT54tZuFmN6d5RruMVfoa8eY+voJWkSd73xUVhjzJDnQr5uu5MFoH7hMg3trHF1CAkaY/2gIneOspUdGxv59Q==
+react-native-image-picker@^2.3.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-2.4.0.tgz#33231ac6d7794193d595b4e13ca6167fc4d523ef"
+  integrity sha512-vve5vcrFlV0lzU4bzY40CsOAEPMr036KlyIH181DN14y+T7i3hsl+PZ6vip4/fJdjLnedv5alLN2ddb46kHhkA==
 
 react-native-maps@0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.26.1.tgz#6ec316259b38d259c8974448d894bd7a23101da4"
   integrity sha512-p4VTB8YB5ZmOmDRCUpoHZkm05amZwhIo04AJMBbB9+JAR2PNNfpo0vceoWX0Mag4wnePkdzPomeWMplr/wimTg==
-
-react-native-material-buttons@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-material-buttons/-/react-native-material-buttons-0.5.0.tgz#ab2b3e3fc3f500ca713f51e9d75978aff602152a"
-  integrity sha1-qys+P8P1AMpxP1Hp11l4r/YCFSo=
-  dependencies:
-    prop-types "^15.5.9"
-    react-native-material-ripple "^0.7.0"
-
-react-native-material-ripple@^0.7.0:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/react-native-material-ripple/-/react-native-material-ripple-0.7.5.tgz#e2af5110680532f14aea3c3a438247be2ffef659"
-  integrity sha1-4q9REGgFMvFK6jw6Q4JHvi/+9lk=
-  dependencies:
-    prop-types "^15.5.10"
-
-react-native-material-ripple@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/react-native-material-ripple/-/react-native-material-ripple-0.8.0.tgz#b8c24e6fdea2af2a21e8468b1f40b35483019e2f"
-  integrity sha1-uMJOb96iryoh6EaLH0CzVIMBni8=
-  dependencies:
-    prop-types "^15.5.10"
 
 react-native-material-textfield@^0.12.0:
   version "0.12.0"
@@ -5240,14 +5237,6 @@ react-native-material-textfield@^0.12.0:
   integrity sha1-P7oZ12q4n2cFLIHgghUvwkPYKj8=
   dependencies:
     prop-types "^15.5.9"
-
-react-native-ratings@^6.3.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-ratings/-/react-native-ratings-6.5.0.tgz#a1606ccba3c5b54eec8e6cfa4765a45cf0e4ab8d"
-  integrity sha512-YMcfQ7UQCmXGEc/WPlukHSHs5yvckTwjq5fTRk1FG8gaO7fZCNygEUGPuw4Dbvvp3IlsCUn0bOQd63RYsb7NDQ==
-  dependencies:
-    lodash "^4.17.4"
-    prop-types "^15.5.10"
 
 react-native-safe-area-view@0.11.0:
   version "0.11.0"
@@ -5263,18 +5252,6 @@ react-native-screens@^1.0.0-alpha.11:
   dependencies:
     debounce "^1.2.0"
 
-react-native-simple-radio-button@^2.7.4:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/react-native-simple-radio-button/-/react-native-simple-radio-button-2.7.4.tgz#86e2dbe8af9e6bf60eee088f60466f7a975e7758"
-  integrity sha512-QOZNmJUn0ViBGU+at7wAG/uGzd5PfXi0kMHr9lfTCLXknW/f9f2fOVjxjdHvOCdf/zA/eMJBjGjtusSDzQf1+w==
-
-react-native-swiper-flatlist@^1.0.9:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/react-native-swiper-flatlist/-/react-native-swiper-flatlist-1.0.12.tgz#e95a5fcd176e15a59072e8e44ed494be93ca9fba"
-  integrity sha512-OVvIAMlMgWkhr6KpSNGBNiX0GNko3QDyXMAo6ZqzrCa8drKAOjaXwNYx8bGqiMADbe06G5pTpHCCxxH1tV+Lpw==
-  dependencies:
-    prop-types "^15.6.2"
-
 react-native-tab-view@^0.0.77:
   version "0.0.77"
   resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-0.0.77.tgz#11ceb8e7c23100d07e628dc151b57797524d00d4"
@@ -5288,11 +5265,6 @@ react-native-tab-view@^1.0.0:
   integrity sha512-Bke8KkDcDhvB/z0AS7MnQKMD2p6Kwfc1rSKlMOvg9CC5CnClQ2QEnhPSbwegKDYhUkBI92iH/BYy7hNSm5kbUQ==
   dependencies:
     prop-types "^15.6.1"
-
-react-native-timeline-flatlist@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-timeline-flatlist/-/react-native-timeline-flatlist-0.5.0.tgz#6f7e02c16a4bb073e15865ce2bda7c84a6dd8472"
-  integrity sha512-3W6JQLNGsoCsqyoXgBAa+oj2p88cIoX68et67ts0T/f2suuD8xdzsUXreqkDwfFSQ+OQevRO0qmkJqoQqZ62HQ==
 
 react-native-vector-icons@^6.6.0:
   version "6.6.0"
@@ -5682,6 +5654,14 @@ rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
+
+rn-fetch-blob@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/rn-fetch-blob/-/rn-fetch-blob-0.12.0.tgz#ec610d2f9b3f1065556b58ab9c106eeb256f3cba"
+  integrity sha512-+QnR7AsJ14zqpVVUbzbtAjq0iI8c9tCg49tIoKO2ezjzRunN7YL6zFSFSWZm6d+mE/l9r+OeDM3jmb2tBb2WbA==
+  dependencies:
+    base-64 "0.1.0"
+    glob "7.0.6"
 
 rsvp@^4.8.4:
   version "4.8.5"
